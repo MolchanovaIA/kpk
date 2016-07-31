@@ -6,7 +6,9 @@ from drawman import*
 def f(x):
     return x*x
 
-drawman_scale(10)
+
+drawman_scale(2)
+coord()
 x = -5.0
 to_point(x, f(x))
 pen_down()
