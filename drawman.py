@@ -45,8 +45,6 @@ def to_point(x, y):
     y_current = y*_drawman_scale
     t.goto(x_current, y_current)
 
-
-
 init_drawman()
 if __name__== '__main__':
     import time
