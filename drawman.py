@@ -54,6 +54,25 @@ def to_point(x, y):
 def coord():
     global _drawman_scale
 
+    to_point(0, 0)
+    pen_down()
+    on_vector(-250, 0)
+    pen_up()
+    to_point(0, 0)
+    pen_down()
+    on_vector(250, 0)
+    pen_up()
+    to_point(0, 0)
+    pen_down()
+    on_vector(0, -250)
+    pen_up()
+    to_point(0, 0)
+    pen_down()
+    on_vector(0, 250)
+    pen_up()
+    to_point(0, 0)
+
+
     for i in range((-1) * (500 // _drawman_scale), (500 // _drawman_scale), _drawman_scale):
         x_current = i
         y_current = (500 // _drawman_scale)

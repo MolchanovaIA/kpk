@@ -7,7 +7,7 @@ def f(x):
     return x*x
 
 
-drawman_scale(2)
+drawman_scale(11)
 coord()
 x = -5.0
 to_point(x, f(x))
